@@ -1,0 +1,56 @@
+html,.container-fluid{
+    height: 100%;
+    font-family: League Spartan;
+    color: black;
+  }
+a{color: inherit;}
+.form-group, .btn, #social,#logo, .palette,.row{
+    display: -ms-flexbox; 
+    display: flex;
+}
+#SignUp{
+    height: 100vh;
+    padding: 10vw;
+    background-image: url("images/color-palettes-schemes-combos-inspiration-20.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+input, .btn, input:active{
+    background-color: rgba(255, 255, 255, 0);
+    border-style: none;
+    outline: none;
+}
+.form-group, .btn{
+    background-color: rgba(0, 0, 0, 0.103);
+}
+#social div{
+    padding: 1vw; margin-bottom: 1vw;
+}
+img{height: 10vh; width: 10vh;}
+i{
+    padding: 1%;
+    margin: 1%;
+}
+.palette{position: relative;}
+#logo{
+    position: absolute;
+    top:0;
+    left:0;  
+    width: 24vw;
+    height: fit-content;
+    background-color: rgba(0, 0, 0, 0.11);
+  }
+.palette div{
+    width: 8vw;
+    height: 100vh;     
+}
+#F16D48{background-color:#F16D48 ;}
+#E06442{background-color:#E06442 ;}
+#B14F34{background-color:#B14F34 ;}
+#A73729{background-color:#A73729 ;}
+#A882D21{background-color:#882D21 ;}
+#A3D1F1D{background-color:#3D1F1D ;}
+#A2F1816{background-color:#2F1816 ;}
+#google{background-color: #D35C35;}
+#facebook{background-color: #B14F34;}
+#linkedin{background-color: #882D21;}
